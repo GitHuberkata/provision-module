@@ -8,7 +8,7 @@ terraform {
 }
 
 module "networking" {
-    source = "../networking"
+    source = "https://github.com/GitHuberkata/network-module"
 }
 
 # Create aws server using previously created image/ami with installed nginx with Packer
